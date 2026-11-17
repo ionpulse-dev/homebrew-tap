@@ -1,10 +1,10 @@
 # Formula template for the waymark tap (ionpulse-dev/homebrew-tap, file Formula/waymark.rb).
-# The release workflow and scripts/brew-local.sh replace 0.5.1 and SHA256 (and URL for local tests).
+# The release workflow and scripts/brew-local.sh replace 0.6.0 and SHA256 (and URL for local tests).
 class Waymark < Formula
   desc "Long-term agent memory: an MCP server over plain Markdown in Git"
   homepage "https://github.com/ionpulse-dev/waymark"
-  url "https://github.com/ionpulse-dev/waymark/releases/download/v0.5.1/waymark-0.5.1-aarch64-apple-darwin.tar.gz"
-  sha256 "f14f10fb1f4d248143d62d1a655178195072188b65d66aa03aefdf1c793ae94c"
+  url "https://github.com/ionpulse-dev/waymark/releases/download/v0.6.0/waymark-0.6.0-aarch64-apple-darwin.tar.gz"
+  sha256 "23cc237539a101e440c419c45ef8b40229a5b66a3997711a23d0fb51aea4a1bb"
   license "MIT"
 
   depends_on arch: :arm64
